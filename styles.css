@@ -1,0 +1,277 @@
+body {
+	margin: 0px;
+	padding: 0px; 
+	background-color: white;
+}
+/*header {
+	height: 5vh;
+	margin: 10px 0px 10px 0px; 
+	font-weight: bold;
+	font-size: 20pt; 
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}*/
+
+.buttonsTitle {
+  top: 700px;
+  position: absolute;
+  z-index: 2;
+  padding-right: 5px;
+}
+.Start {
+   left: 5px;
+}
+.Stop {
+	left: 50px;
+}
+.Reset {
+	left: 95px;
+}
+
+
+.parking-lot {
+	display: flex;
+	height: 702px;
+	width: 940px;
+	padding-left: 170px; 
+	z-index: 1;
+	position: absolute;
+}
+.red-car {
+	height: 10vh;
+	position: absolute;
+	transform: rotate(-90deg);
+	z-index: 2;
+	top: 616px;
+	left: 310px;
+}
+./*blue-car*/ {
+	height: 10vh;
+	position: absolute;
+	transform: rotate(-90deg);
+	z-index: 2;
+	top: 736px;
+	left: 310px;
+}
+/*.grey-car */{
+	height: 10vh;
+	position: absolute;
+	transform: rotate(180deg);
+	z-index: 2;
+	top: 12px;
+	left: 175px;
+}
+
+.div1,
+.div2, 
+.div3, 
+.div4, 
+.div5, 
+.div6, 
+.div7, 
+.div8, 
+.div9, 
+.div25, 
+.div26, 
+.div27, 
+.div28, 
+.div29,
+.div30,
+.div31,
+.div32 {
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 134px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(360deg);
+	z-index: 1;
+}
+.div1 {
+	top: 12px;
+	left: 179px;
+}
+.div2 {
+	top: 87px;
+	left: 179px;
+}
+.div3 {
+	top: 163px;
+	left: 179px;
+}
+.div4 {
+	top: 238px;
+	left: 179px;
+}
+.div5 {
+	top: 313px;
+	left: 179px;
+}
+.div6 {
+	top: 389px;
+	left: 179px;
+}
+.div7 {
+	top: 463px;
+	left: 179px;
+}
+.div8 {
+	top: 539px;
+	left: 179px;
+}
+.div9 {
+	top: 613px;
+	left: 179px;
+}
+
+.div11,
+.div12,
+.div13,
+.div14,
+.div15,
+.div16,
+.div17,
+.div18,
+.div19,
+.div20,
+.div21,
+.div22,
+.div23,
+.div24 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 134px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-90deg);
+	z-index: 1;
+}
+
+.div11 {
+	top: 49px;
+	left: 499px;
+}
+.div12 {
+	top: 49px;
+	left: 574px;
+}
+.div13 {
+	top: 49px;
+	left: 649px;
+}
+.div14 {
+	top: 49px;
+	left: 724px;
+}
+
+
+.div15 {
+	top: 314px;
+	left: 424px;
+}
+.div16 {
+	top: 314px;
+	left: 498px;
+}
+.div17 {
+	top: 314px;
+	left: 572px;
+}
+.div18 {
+	top: 314px;
+	left: 647px;
+}
+.div19 {
+	top: 314px;
+	left: 722px;
+}
+
+.div20 {
+	top: 579px;
+	left: 423px;
+}
+.div21 {
+	top: 579px;
+	left: 497px;
+}
+.div22 {
+	top: 579px;
+	left: 572px;
+}
+.div23 {
+	top: 579px;
+	left: 647px;
+}
+.div24 {
+	top: 579px;
+	left: 721px;
+}
+
+
+.div25 {
+	top: 17px;
+	left: 958px;
+}
+.div26 {
+	top: 92px;
+	left: 958px;
+}
+.div27 {
+	top: 167px;
+	left: 958px;
+}
+.div28 {
+	top: 241px;
+	left: 958px;
+}
+.div29 {
+	top: 315px;
+	left: 958px;
+}
+.div30 {
+	top: 390px;
+	left: 958px;
+}
+.div31 {
+	top: 465px;
+	left: 958px;
+}
+.div32 {
+	top: 540px;
+	left: 958px;
+}
+
+/*.Intersection1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 129px;
+	height: 133px;
+	background-color: blue;
+	position: absolute;
+	transform: rotate(360deg);
+	z-index: 1;
+	top: 150;
+	left: 314;	
+}
+.Intersection1 {
+	top: 150;
+	left: 314;
+}
+.Intersection2 {
+	top: 150;
+	left: 314;
+}
+.Intersection3 {
+	top: 418;
+	left: 314;
+}
+.Intersection4 {
+	top: 418;
+	left: 314;
+}*/

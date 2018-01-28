@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Drive Around</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="javascript" type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+ </head>
+
+<body>
+
+    <audio data-key="carSkid" src="TIRE+SKID.mp3"></audio>
+    <audio data-key="carRunning" src="RACECARMod2.mp3"></audio>
+    
+    <div id="topRacetrack">
+        <input class="buttonStart buttonsRedCar" type="button" value="Start Car" onclick="startCar1()">
+        <input class="buttonStop buttonsRedCar" type="button" value="Stop Car" onclick="stopCars()">
+        <input class="buttonReset buttonsRedCar" type="button" value="Reset Car" onclick="resetCars()"> 
+        <!-- <input class="buttonsRedCar" type="button" value="Clockwise" onclick="rotateCar(0);" />
+        <input class="buttonsRedCar" type="button" value="Counter-Clockwise" onclick="rotateCar(1);" /> -->
+    Gary's Animated Racetrack
+    </div>
+
+    <div id="container"></div>
+    <div class="intersection1"></div>
+    <div class="intersection2"></div>
+    <div class="intersection3"></div>
+    <div class="intersection4"></div>
+
+    <img class="carImage1" src="car-orange.png">
+    <!-- <img class="carImage2" src="car-blue.png">
+    <img class="carImage3" src="car-green.png"> -->
+
+
+<script src="myscript.js"></script>
+    
+    
+</body>
+
+</html>
